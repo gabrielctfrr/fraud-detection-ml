@@ -3,10 +3,12 @@ venv/
 
 data/
 *.csv
+!data/.gitkeep
 
 models/
 *.pkl
 *.joblib
+!models/.gitkeep
 
 __pycache__/
 *.py[cod]
@@ -23,3 +25,4 @@ build/
 Thumbs.db
 
 reports/
+!reports/.gitkeep
