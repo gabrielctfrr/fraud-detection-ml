@@ -1,5 +1,7 @@
 import sweetviz as sv
 from src.data_loader import load_data
+import pandas as pd
+import numpy as np
 
 df = load_data("data/dataset.csv")
 
