@@ -6,4 +6,4 @@ def load_data(file_path:str) -> pd.DataFrame:
         return df
     except Exception as e:
         print(f"Error loading data: {e}")
-        return pd.DataFrame()   
+        return pd.DataFrame()
