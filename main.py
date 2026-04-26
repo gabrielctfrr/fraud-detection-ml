@@ -1,9 +1,6 @@
-import sweetviz as sv
-import pandas as pd
-import numpy as np
-from src.data_loader import load_data
+import pandas as pd 
 
-df = load_data("data/dataset.csv")
-
-report = sv.analyze(df)
-report.show_html("reports/eda_report.html")
+df = pd.DataFrame({'a':[1, None, 3], 'b':[4, 5, None]})
+print(df.isnull().sum())
+print(type(df.isnull().sum()))
+print(df.isnull().sum().any())
